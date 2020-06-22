@@ -1,0 +1,45 @@
+{
+  "title": "Modelo 01",
+  "name": "template-loji-01",
+  "version": "1.0",
+  "scripts": {
+      "start": "node_modules/.bin/gulp watch"
+  },
+  "description": "",
+  "keywords": [
+      "css",
+      "sass",
+      "html",
+      "responsive",
+      "theme",
+      "template"
+  ],
+  "license": "MIT",
+  "author": "Andrelino Silva",
+  "contributors": [
+      "Andrelino Silva (https://andrelinosilva.com.br/)"
+  ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/andrelinos/loji.git"
+  },
+  "dependencies": {
+      "@fortawesome/fontawesome-free": "5.10.2"
+  },
+  "devDependencies": {
+      "browser-sync": "2.26.7",
+      "del": "5.1.0",
+      "eslint": "^5.16.0",
+      "eslint-config-airbnb-base": "^14.1.0",
+      "eslint-plugin-html": "^6.0.2",
+      "gulp": "4.0.2",
+      "gulp-autoprefixer": "7.0.0",
+      "gulp-clean-css": "4.2.0",
+      "gulp-header": "2.0.9",
+      "gulp-plumber": "^1.2.1",
+      "gulp-rename": "1.4.0",
+      "gulp-sass": "4.0.2",
+      "gulp-uglify": "3.0.2",
+      "merge-stream": "2.0.0"
+  }
+}
